@@ -3,7 +3,7 @@
 
 Name:           libndi
 Version:        0.0.1
-Release:        8.git%{?shortcommit0}%{?dist}
+Release:        9.git%{?shortcommit0}%{?dist}
 Summary:        Open-source library done to interact with NDI streams
 
 License:        LGPLv2+
@@ -71,6 +71,9 @@ The %{name}-utils package contains utilities for %{name}.
 
 
 %changelog
+* Sat Feb 03 2024 RPM Fusion Release Engineering <sergiomb@rpmfusion.org> - 0.0.1-9.gitc14b40c
+- Rebuilt for https://fedoraproject.org/wiki/Fedora_40_Mass_Rebuild
+
 * Wed Aug 02 2023 RPM Fusion Release Engineering <sergiomb@rpmfusion.org> - 0.0.1-8.gitc14b40c
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_39_Mass_Rebuild
 
