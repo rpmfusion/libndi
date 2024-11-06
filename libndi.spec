@@ -3,7 +3,7 @@
 
 Name:           libndi
 Version:        0.0.1
-Release:        11.git%{?shortcommit0}%{?dist}
+Release:        12.git%{?shortcommit0}%{?dist}
 Summary:        Open-source library done to interact with NDI streams
 
 License:        LGPLv2+
@@ -71,6 +71,9 @@ The %{name}-utils package contains utilities for %{name}.
 
 
 %changelog
+* Wed Nov 06 2024 Sérgio Basto <sergio@serjux.com> - 0.0.1-12.gitc14b40c
+- Rebuild for ffmeg-7
+
 * Sat Oct 26 2024 Nicolas Chauvet <kwizart@gmail.com> - 0.0.1-11.gitc14b40c
 - rebuilt
 
