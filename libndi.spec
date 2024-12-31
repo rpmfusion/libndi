@@ -3,12 +3,14 @@
 
 Name:           libndi
 Version:        0.0.1
-Release:        12.git%{?shortcommit0}%{?dist}
+Release:        13.git%{?shortcommit0}%{?dist}
 Summary:        Open-source library done to interact with NDI streams
 
 License:        LGPLv2+
 URL:            https://code.videolan.org/jbk/libndi
 Source0:        %{url}/-/archive/%{commit0}/%{name}-%{shortcommit0}.tar.gz
+# Port to ffmpeg 7
+Patch0:         libndi-c14b40c-ffmpeg7.patch
 
 BuildRequires:  gcc
 BuildRequires:  meson
@@ -71,6 +73,9 @@ The %{name}-utils package contains utilities for %{name}.
 
 
 %changelog
+* Tue Dec 31 2024 Mamoru TASAKA <mtasaka@fedoraproject.org> - 0.0.1-13.gitc14b40c
+- Port to ffmpeg 7
+
 * Wed Nov 06 2024 Sérgio Basto <sergio@serjux.com> - 0.0.1-12.gitc14b40c
 - Rebuild for ffmeg-7
 
