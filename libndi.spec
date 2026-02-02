@@ -3,7 +3,7 @@
 
 Name:           libndi
 Version:        0.0.1
-Release:        16.git%{?shortcommit0}%{?dist}
+Release:        17.git%{?shortcommit0}%{?dist}
 Summary:        Open-source library done to interact with NDI streams
 
 License:        LGPLv2+
@@ -73,6 +73,9 @@ The %{name}-utils package contains utilities for %{name}.
 
 
 %changelog
+* Mon Feb 02 2026 RPM Fusion Release Engineering <sergiomb@rpmfusion.org> - 0.0.1-17.gitc14b40c
+- Rebuilt for https://fedoraproject.org/wiki/Fedora_44_Mass_Rebuild
+
 * Wed Nov 05 2025 Leigh Scott <leigh123linux@gmail.com> - 0.0.1-16.gitc14b40c
 - Rebuild for ffmpeg-8.0
 
